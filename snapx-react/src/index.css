@@ -52,3 +52,415 @@ body {
 .sign-btn:hover{
     background:#2f2727;
 }
+
+.hero{
+    position:relative;
+    height:700px;
+    background:url("./assets/images/banner-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    position:absolute;
+}
+
+.hero-content{
+    position:relative;
+    z-index: 2;
+    text-align:center;
+    color:#fff;
+    padding-top:180px;
+}
+
+.hero-content h1{
+   font-size: 50px;
+    font-weight:800;
+}
+
+.hero-content span{
+    color:#00cfff;
+}
+
+.hero-content hr{
+    width:60%;
+    margin:35px auto;
+    opacity: 3;
+}
+
+.hero-content p{
+    max-width:850px;
+    margin:auto;
+    font-size:15px;
+    color:#ddd;
+}
+
+.hero-buttons{
+    margin-top:40px;
+}
+
+.contest-btn{
+    display:inline-block;
+    border:2px solid #fff;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:12px;
+    margin-right:20px;
+}
+
+.contest-btn:hover{
+    border:2px solid #1a1010;
+    color:#020101;
+}
+
+.video-btn{
+    color:#fff;
+    text-decoration:none;
+}
+
+.video-btn:hover{
+    color:#150f0f;
+}
+
+.cards-wrapper{
+    position:absolute;
+    bottom:-100px;
+    width:100%;
+    z-index: 10;
+}
+
+.photo-card,
+.center-card{
+    width: 90%;
+    height: 200px;
+    background:#fcfafa;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.photo-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.center-card{
+    padding:30px;
+    min-height:200px;
+    text-align:center;
+}
+
+.center-card h6{
+    color:#00cfff;
+    margin-bottom:25px;
+}
+
+.center-card span{
+    color:#bbd8dd;
+    margin-bottom:20px;
+}
+
+.slider-arrow{
+    position: absolute;
+    top: 49%;
+    width:30px;
+    height:30px;
+    transform: translateY(-50%);
+    z-index: 999;
+    border: 1px solid rgba(0,207,255, 0.4);
+    border-radius:50%;
+    background: #00cfff;
+}
+
+.slider-arrow:hover{
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.left-arrow{
+    left: -27px;
+}
+
+.right-arrow{
+    right: 10px;
+}
+
+.categories-section{
+    background:#fff;
+    padding:200px 0;
+}
+
+.sub-title{
+    color:#9beaf8;
+    font-size:13px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+
+.section-header h2{
+    font-size:25px;
+    font-weight:700;
+    color:#222;
+}
+
+.section-header h2 span{
+    color:#19c6f4;
+}
+
+.discover-btn{
+    background:#19c6f4;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:14px;
+}
+
+.discover-btn:hover{
+   color: #150f0f;
+   border: 1px solid #150f0f;
+}
+
+.contest-card{
+    border:1px solid #dcd7d7;
+    border-radius:20px;
+    padding:20px;
+    background:#fff;
+    height:100%;
+}
+
+.card-heading{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-bottom:20px;
+}
+
+.icon-box{
+    width:50px;
+    height:50px;
+    background:#ebe5e5;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.icon-box img{
+    max-width:300px;
+    max-height:25px;
+    margin:20px;
+    position:relative;
+}
+
+.card-heading h6{
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+.card-heading p{
+    color:#999;
+    font-size: 12px;
+}
+
+.card-heading span{
+    color:#19c6f4;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contest-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.contest-card button{
+    width:100%;
+    height:40px;
+    border:1px solid #d9edf2;
+    background:#fff;
+    color:#19c6f4;
+    border-radius:12px;
+    font-weight:600;
+}
+
+.contest-card button:hover{
+    background:#19c6f4;
+    color:#fff;
+}
+
+.winners-section{
+    margin-top: -120px;
+    padding:100px 0;
+    background:url(images/closed-bg.jpg);
+}
+
+.sub-heading{
+    color:#7ad7f6;
+    font-size:13px;
+    font-weight:700;
+    margin-bottom:10px;
+
+}
+
+.section-title h2{
+    font-size:28px;
+    font-weight:700;
+    color:#222;
+}
+
+.section-title h2 span{
+    color:#1ec8f5;
+}
+
+.winner-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    margin-top: -30px;
+}
+
+.winner-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+
+}
+
+.winner-info{
+    display:flex;
+    justify-content:space-between;
+    padding:25px;
+}
+
+.winner-info h5{
+    font-size:15px;
+    font-weight:700;
+    color:#333;
+}
+
+.winner-info p{
+    color:#999;
+    margin-top:5px;
+    font-size: 12px;
+}
+
+.open-btn{
+    display:inline-block;
+    padding:10px 30px;
+    border:1px solid #7ad7f6;
+    border-radius:12px;
+    color:#1ec8f5;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.open-btn:hover{
+    background:#1ec8f5;
+    color:#fff;
+}
+
+.pricing-section{
+    padding:100px 0;
+    background:#fff;
+}
+
+.section-heading p{
+    color:#7dd8f4;
+    font-size:15px;
+    font-weight:700;
+}
+
+.section-heading h2{
+    font-size:28px;
+    font-weight:700;
+}
+
+.section-heading span{
+    color:#20c8f5;
+}
+
+.pricing-card{
+    background:#fff;
+    border:1px solid #f1f1f1;
+    border-radius:25px;
+    text-align:center;
+    padding:40px 30px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+    height:100%;
+}
+
+.pricing-card img{
+    width:230px;
+    height:160px;
+    object-fit:contain;
+    margin-bottom:20px;
+}
+
+.pricing-card h3{
+    font-size:20px;
+    font-weight:700;
+    
+}
+
+.pricing-card hr{
+    margin:20px 0;
+}
+
+.pricing-card ul{
+    list-style:none;
+    padding:5px;
+}
+
+.pricing-card ul li{
+    color:#42c2e6;
+    margin:8px 0;
+}
+
+
+.plan-list li.active{
+    color:hsl(193, 13%, 87%);
+    font-weight:600;
+    text-decoration: line-through;
+}
+
+.pricing-card h1{
+    color:#20c8f5;
+    font-size:25px;
+    font-weight: 700;
+    margin:10px 0;
+}
+
+.pricing-card a{
+    display:inline-block;
+    border:1px solid #20c8f5;
+    padding:10px 30px;
+    border-radius:12px;
+    color:#20c8f5;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.pricing-card a:hover{
+    background:#20c8f5;
+    color:#fff;
+}
+
+.footer-section{
+    background:#18c6f5;
+    padding:25px;
+    text-align:center;
+}
+
+.footer-section p{
+    color:#fff;
+    margin:0;
+}
