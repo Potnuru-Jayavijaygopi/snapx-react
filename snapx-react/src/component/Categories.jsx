@@ -1,12 +1,12 @@
 import React from 'react'
 import icon1 from "../assets/images/icon-01.png";
-import icon2 from "../assets/images/icon-01.png";
-import icon3 from "../assets/images/icon-01.png";
-import icon4 from "../assets/images/icon-01.png";
+import icon2 from "../assets/images/icon-02.png";
+import icon3 from "../assets/images/icon-03.png";
+import icon4 from "../assets/images/icon-04.png";
 import popular1 from "../assets/images/popular-01.png";
-import popular2 from "../assets/images/popular-01.png";
-import popular3 from "../assets/images/popular-01.png";
-import popular4 from "../assets/images/popular-01.png";
+import popular2 from "../assets/images/popular-02.png";
+import popular3 from "../assets/images/popular-03.png";
+import popular4 from "../assets/images/popular-04.png";
 
 const Categories = () => {
   return (
